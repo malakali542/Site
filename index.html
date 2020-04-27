@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="icon" href="malak-logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Malak Ali</title>
+    <script type="text/javascript">
+        function clickEffect(e){
+          var d=document.createElement("div");
+          d.className="clickEffect";
+          d.style.top=e.clientY+"px";d.style.left=e.clientX+"px";
+          document.body.appendChild(d);
+          d.addEventListener('animationend',function(){d.parentElement.removeChild(d);}.bind(this));
+        }
+        document.addEventListener('click',clickEffect);
+        </script>
+</head>
+<body>
+<!-- Image and text -->
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+<nav class="navbar navbar-expand-md navbar-light fixed-top  py-0 " id="mainNavbar">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+        <img src="malak-logo.png" width="120" height="40" class="d-inline-block align-top" alt="">    
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item" id="extra">
+                <a class="nav-link middle active" href="#"> About Me </a>
+              </li>
+              <!-- <li class="nav-item" id="extra">
+                <a class="nav-link middle" href="#"> Experience </a>
+              </li> -->
+              <li class="nav-item" id="extra">
+                <a class="nav-link middle" href="#section1"> Projects </a>
+              </li>
+              <li class="nav-item" id="extra">
+                <a class="nav-link middle" href="malak-resume.pdf"> Resume </a>
+              </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+ 
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 d-flex align-items-center justify-content-end lato">
+            <h4>Click around for a fun surprise!</h4>
+        </div>
+        
+        <div class="col-xs-12">
+            <h1 class="highlight-raise mt-5 d-inline-flex "> Malak Ali</h1>
+        </div>
+    </div>
+
+    <div class=" col-6 col-sm-6 col-md-5 col-lg-4 col-xl-3 d-flex justify-content-between ml-0 mr-0 ">
+        <span id="icons">
+          <a href="mailto:malakali542@hotmail.com" target="_blank"> <i class="fas fa-envelope fa-3x"></i></a>
+        </span>
+        <span id="icons">
+        <a href="https://www.linkedin.com/in/-malakali/" target="_blank"> <i class="fab fa-linkedin-in fa-3x"></i></a>
+        </span>
+      <span id="icons">  
+        <a href="https://github.com/malakali542" target="_blank"> <i class="fab fa-github fa-3x"></i></a>
+      </span>
+    </div>
+
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-lg-9 col-xl-9 justify-content-start" id="bio">
+            <h3>I'm a first year <span class="highlight-raise"><a href="https://uwaterloo.ca/systems-design-engineering/" target="_blank"><span class="link"> Systems Design Engineering </span></a></span> student @ the University of Waterloo. </h3>
+                    <h3>I have previously worked as a <span class="job-title"> Full Stack Developer</span> at <span class="highlight-raise"><a href="http://www.makharafi.net/" target="_blank"><span class="link"> M.A Kharafi & Sons </span></a></span> 
+                    building a website to highlight their recent construction project, as a <span class="job-title">Mechatronics Designer</span> @ Top Hat Robotics to design and develop tech, and as a 
+                    <span class="job-title"> Designer + Frontend Developer </span> @ <span class="highlight-raise"><a href="http://maxgala.com/" target="_blank"><span class="link"> MAX Gala </span></a></span>, designing "MAX Aspire", a new platform to connect the MAX community.</h3>
+                    
+                    <h3>Recently, I've been interested in Biotechnology and am now a marketing executive for <span class="highlight-raise"><a href="https://www.uwbiotec.ca/" target="_blank"><span class="link">BioTEC 2020, </span></a></span> Canada's premier biotechnology
+                    conference! After being introduced AI & Machine learning at several hackathons, I am currently earning a certificate in Machine Learning from Stanford University.</h3>  
+                
+                    <h3>A designer at heart, I aim to view problems from a "systems thinking" viewpoint and find efficient ways to solve them with design.<span class="highlight-raise"> After all, systems is how we view the world, and design is how we change it.</span></h3>
+                
+                    <h3>When I'm not designing or developing, you can find me <span class="highlight-raise"><span class="link">drawing</span></a></span>, watching NBA games + pre/post game shows, playing frisbee, or geeking out about the latest Survivor elimination. </h3>
+
+                    <h3>Feel free to reach out for coffee or just to chat! </h3>
+                   
+        </div>
+         
+    </div>
+</div>
+
+
+
+<div  id="section1" class="container">
+    <hr >
+    <div class="row">
+        <div class="col-12">
+            <h2 class="lato pb-3">Projects</h2>
+        </div>
+        <div class="row col-12">
+            <div class="card lato border-0 ml-3 mb-3" style="width: 20rem;">
+                <img class="card-img-top" src="museumofcandy-img.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Museum of Candy</h5>
+                <p class="card-text">A responsive website created to showcase a ficticious Museum of Candy, made using HTML/CSS, Bootstrap and Vanilla JS</p>
+                <a href="https://malakali542.github.io/Museum-of-Candy/" class="btn btn-light">Click here to check it out!</a>
+                </div>
+            </div>
+
+            <div class=" ml-3 card lato border-0 mb-3" style="width: 20rem;">
+                <iframe class="card-img-top"  style="border: none;" width="286" height="201" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FHJ30fjEFaAA7n3r9CzAlrr%2FMAX%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+                <div class="card-body">
+                <h5 class="card-title">MAX Aspire Landing + Dashboard</h5>
+                <p class="card-text">High fidelity wireframes of MAX Aspire, a platform to connect seasoned professionals and younger professionals.</p>
+                <a href="https://www.figma.com/file/HJ30fjEFaAA7n3r9CzAlrr/MAX?node-id=0%3A1" class="btn btn-light">Click here to check it out!</a>
+                </div>
+            </div>
+
+            <div class=" ml-3 card lato border-0 mb-3" style="width: 20rem;">
+                <img class="card-img-top" src="museumofcandy-img.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Museum of Candy</h5>
+                <p class="card-text">A responsive website created to showcase a ficticious Museum of Candy, made using HTML/CSS, Bootstrap and Vanilla JS</p>
+                <a href="https://malakali542.github.io/Museum-of-Candy/" class="btn btn-light">Click here to check it out!</a>
+                </div>
+            </div>
+            
+            <div class=" ml-3 card lato border-0 mb-3" style="width: 20rem;">
+                <img class="card-img-top" src="museumofcandy-img.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Museum of Candy</h5>
+                <p class="card-text">A responsive website created to showcase a ficticious Museum of Candy, made using HTML/CSS, Bootstrap and Vanilla JS</p>
+                <a href="https://malakali542.github.io/Museum-of-Candy/" class="btn btn-light">Click here to check it out!</a>
+                </div>
+            </div>
+
+            <div class=" ml-3 card lato border-0 mb-3" style="width: 20rem;">
+                <img class="card-img-top" src="museumofcandy-img.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Museum of Candy</h5>
+                <p class="card-text">A responsive website created to showcase a ficticious Museum of Candy, made using HTML/CSS, Bootstrap and Vanilla JS</p>
+                <a href="https://malakali542.github.io/Museum-of-Candy/" class="btn btn-light">Click here to check it out!</a>
+                </div>
+            </div>
+
+        </div>  
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <h5 class="col-12 d-flex lato" >&copy; Copyright Malak Ali 2020 - Designed and Coded by Malak Ali</h5>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/a4e0d437a2.js" crossorigin="anonymous"></script>
+
+<script>
+    $(function () {
+        $(document).scroll(function () {
+            var $nav = $("#mainNavbar");
+            $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+    });
+</script>
+
+
+</body>
+</html>
