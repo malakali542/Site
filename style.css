@@ -7,6 +7,12 @@
     min-height: 2rem;
   }
 
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
 #extra{
     padding: 10px;
 }
