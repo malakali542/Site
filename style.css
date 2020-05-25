@@ -13,6 +13,28 @@
     height: auto;
   }
 
+  .resizehero{
+    max-width: 1000px;
+    height: auto;
+  }
+
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+  .paddingleft{
+    padding-left: 30px;;
+  }
+
+  .imgresize {
+    width: 550px;
+    height: auto;
+  }
+
 #extra{
     padding: 10px;
 }
